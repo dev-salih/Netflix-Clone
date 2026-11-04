@@ -1,5 +1,6 @@
 import Banner from "./Components/Banner/Banner"
 import DisplayRow from "./Components/DisplayRaw/DisplayRaw"
+import Footer from "./Components/Footer/Footer"
 import Header from "./Components/Header/Header"
 import MovieCard from "./Components/MovieCard/MovieCard"
 
@@ -9,6 +10,7 @@ function App() {
       <Header/>
       <Banner/>
       <DisplayRow/>
+      <Footer/>
     </>
   )
 }
