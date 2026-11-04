@@ -53,7 +53,7 @@ const Banner = () => {
 
         {/* description */}
         <h1 className={style.description}>
-          {/* {truncate(bannerImage?.overview, 120)} */}
+          {truncate(bannerImage?.overview, 120)}
         </h1>
 
         {/* buttons */}

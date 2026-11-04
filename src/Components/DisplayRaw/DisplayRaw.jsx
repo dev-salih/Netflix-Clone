@@ -1,17 +1,3 @@
-// import React from "react";
-
-// import Slideshow from "../SlideShow/SlideShow";
-// import styles from "./DisplayRaw.module.css";
-// import { movies } from "../../../src/Data/Data";
-// function DisplayRow() {
-//   return (
-//     <div className={styles.mainWrapper}>
-//       <Slideshow title="Movie suggestions" movies={movies} />
-//     </div>
-//   );
-// }
-// export default DisplayRow;
-
 import styles from "./DisplayRaw.module.css";
 import SlideShow from "../SlideShow/SlideShow";
 import { MovieInstance } from "../../utility/MovieInstance";
